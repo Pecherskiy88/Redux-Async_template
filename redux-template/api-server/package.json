@@ -1,0 +1,10 @@
+{ 
+  "name": "api-server",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  },
+  "scripts": {
+    "start": "json-server db.json -p 8086 -d 200"
+  }
+}

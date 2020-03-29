@@ -7,7 +7,7 @@ import store from './redux/store';
 import App from './App';
 
 import './index.css';
-console.log('store: ', store.getState());
+
 ReactDOM.render(
   <Provider store={store}>
     <StrictMode>
